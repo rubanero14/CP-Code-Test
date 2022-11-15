@@ -25,8 +25,8 @@ namespace CP_Code_Test.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<ConsultantInfo> ConsultantInfoes { get; set; }
-        public virtual DbSet<CustomerInfo> CustomerInfoes { get; set; }
+        public virtual DbSet<ConsultantInfo> Consultants { get; set; }
+        public virtual DbSet<CustomerInfo> Customers { get; set; }
         public virtual DbSet<DiscretionaryRule> DiscretionaryRules { get; set; }
         public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
     }

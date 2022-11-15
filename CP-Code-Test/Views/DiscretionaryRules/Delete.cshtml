@@ -1,0 +1,80 @@
+﻿@model CP_Code_Test.Models.DiscretionaryRule
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>DiscretionaryRule</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ConsultantID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ConsultantID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rules)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rules)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerBuy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerBuy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerSell)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerSell)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ConsultantBuy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ConsultantBuy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ConsultantSell)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ConsultantSell)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

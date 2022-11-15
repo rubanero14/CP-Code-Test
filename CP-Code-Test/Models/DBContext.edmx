@@ -111,8 +111,8 @@
           <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
         </EntityType>
         <EntityContainer Name="CPTestDBEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="ConsultantInfoes" EntityType="Self.ConsultantInfo" />
-          <EntitySet Name="CustomerInfoes" EntityType="Self.CustomerInfo" />
+          <EntitySet Name="Consultants" EntityType="Self.ConsultantInfo" />
+          <EntitySet Name="Customers" EntityType="Self.CustomerInfo" />
           <EntitySet Name="DiscretionaryRules" EntityType="Self.DiscretionaryRule" />
           <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
         </EntityContainer>
@@ -122,7 +122,7 @@
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="CPTestDBModelStoreContainer" CdmEntityContainer="CPTestDBEntities">
-          <EntitySetMapping Name="ConsultantInfoes">
+          <EntitySetMapping Name="Consultants">
             <EntityTypeMapping TypeName="CPTestDBModel.ConsultantInfo">
               <MappingFragment StoreEntitySet="ConsultantInfo">
                 <ScalarProperty Name="ConsultantInfoId" ColumnName="ConsultantInfoId" />
@@ -133,7 +133,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="CustomerInfoes">
+          <EntitySetMapping Name="Customers">
             <EntityTypeMapping TypeName="CPTestDBModel.CustomerInfo">
               <MappingFragment StoreEntitySet="CustomerInfo">
                 <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
