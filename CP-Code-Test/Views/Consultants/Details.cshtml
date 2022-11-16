@@ -1,10 +1,11 @@
 ﻿@model CP_Code_Test.Models.ConsultantInfo
 
 @{
-    ViewBag.Title = "Delete Consultant Info";
+    ViewBag.Title = "Consultant Info Details";
 }
 
-<h3>Are you sure you want to delete details of @Model.FirstName @Model.LastName?</h3>
+<h2>Consultant Info Details for @Model.FirstName @Model.LastName</h2>
+
 <div>
     <dl class="dl-horizontal">
         <dt>
@@ -40,13 +41,8 @@
         </dd>
 
     </dl>
-
-    @using (Html.BeginForm()) {
-        @Html.AntiForgeryToken()
-
-        <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
-            @Html.ActionLink("Back to List", "Index")
-        </div>
-    }
 </div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ConsultantInfoId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

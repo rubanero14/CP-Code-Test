@@ -1,10 +1,10 @@
 ﻿@model CP_Code_Test.Models.DiscretionaryRule
 
 @{
-    ViewBag.Title = "Edit";
+    ViewBag.Title = "Edit User Permission";
 }
 
-<h2>Edit</h2>
+<h2>Edit User Permission for Consultant ID: @Model.ConsultantID</h2>
 
 
 @using (Html.BeginForm())
@@ -12,8 +12,6 @@
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        <h4>DiscretionaryRule</h4>
-        <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         @Html.HiddenFor(model => model.DiscretionaryRuleID)
 
