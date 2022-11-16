@@ -1,5 +1,4 @@
 ﻿body {
-    padding-top: 50px;
     padding-bottom: 20px;
     background: #ddd;
 }
@@ -10,8 +9,7 @@ footer {
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px 30px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -31,11 +29,21 @@ textarea {
 .brand, .brand:hover {
     text-decoration: none;
     display: block;
-    font-size: 24px;
+    font-size: 30px;
     color: #fff;
     padding: 10px 20px;
 }
 
 .navbar-inversed {
     background: #333;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.desktop .nav-link {
+    text-decoration: none;
+    color: #ccc;
 }

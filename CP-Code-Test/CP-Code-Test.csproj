@@ -123,7 +123,6 @@
     <Compile Include="Controllers\ConsultantsController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\DiscretionaryRulesController.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -299,20 +298,16 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Consultants\Create.cshtml" />
     <Content Include="Views\Consultants\Delete.cshtml" />
-    <Content Include="Views\Consultants\Details.cshtml" />
     <Content Include="Views\Consultants\Edit.cshtml" />
     <Content Include="Views\Consultants\Index.cshtml" />
     <Content Include="Views\Customers\Create.cshtml" />
     <Content Include="Views\Customers\Delete.cshtml" />
-    <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\Edit.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\DiscretionaryRules\Create.cshtml" />
     <Content Include="Views\DiscretionaryRules\Delete.cshtml" />
-    <Content Include="Views\DiscretionaryRules\Details.cshtml" />
     <Content Include="Views\DiscretionaryRules\Edit.cshtml" />
     <Content Include="Views\DiscretionaryRules\Index.cshtml" />
     <Content Include="Scripts\umd\popper.min.js.map" />
