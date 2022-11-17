@@ -80,17 +80,11 @@
         </div>
 
         <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-default" />
-                @Html.ActionLink("Back to List", "Index")
-            </div>
+            <input type="submit" value="Save" class="btn btn-primary ml-3" />
+            @Html.ActionLink("Back to List", "Index", null, null, new { @class = "btn btn-danger" })
         </div>
     </div>
 }
-
-<div>
-    
-</div>
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")

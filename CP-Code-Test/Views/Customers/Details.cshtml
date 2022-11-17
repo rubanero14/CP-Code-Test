@@ -74,7 +74,7 @@
 
     </dl>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.CustomerId }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+<div class="d-flex justify-content-start align-items-center">
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CustomerId }, new { @class = "btn btn-primary mb-2 mr-2" })
+    @Html.ActionLink("Back to List", "Index", null, null, new { @class = "btn btn-danger mb-2" })
+</div>

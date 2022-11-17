@@ -53,9 +53,11 @@
                 @Html.DisplayFor(modelItem => item.ConsultantSell)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.DiscretionaryRuleID }, new { @class = "btn btn-primary mb-2" })
-                @Html.ActionLink("Details", "Details", new { id = item.DiscretionaryRuleID }, new { @class = "btn btn-success mb-2" })
-                @Html.ActionLink("Delete", "Delete", new { id = item.DiscretionaryRuleID }, new { @class = "btn btn-danger mb-2" })
+                <div class="d-flex justify-content-between align-items-center">
+                    @Html.ActionLink("Edit", "Edit", new { id = item.DiscretionaryRuleID }, new { @class = "btn btn-primary mb-2 mr-2" })
+                    @Html.ActionLink("Details", "Details", new { id = item.DiscretionaryRuleID }, new { @class = "btn btn-success mb-2 mr-2" })
+                    @Html.ActionLink("Delete", "Delete", new { id = item.DiscretionaryRuleID }, new { @class = "btn btn-danger mb-2" })
+                </div>
             </td>
         </tr>
     }
