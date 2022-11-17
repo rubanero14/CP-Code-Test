@@ -34,7 +34,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.CustomerBuy, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                <div class="checkbox">
+                <div class="d-flex">
                     @Html.EditorFor(model => model.CustomerBuy)
                     @Html.ValidationMessageFor(model => model.CustomerBuy, "", new { @class = "text-danger" })
                 </div>
@@ -44,7 +44,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.CustomerSell, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                <div class="checkbox">
+                <div class="d-flex">
                     @Html.EditorFor(model => model.CustomerSell)
                     @Html.ValidationMessageFor(model => model.CustomerSell, "", new { @class = "text-danger" })
                 </div>
@@ -54,7 +54,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.ConsultantBuy, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                <div class="checkbox">
+                <div class="d-flex">
                     @Html.EditorFor(model => model.ConsultantBuy)
                     @Html.ValidationMessageFor(model => model.ConsultantBuy, "", new { @class = "text-danger" })
                 </div>
@@ -64,7 +64,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.ConsultantSell, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                <div class="checkbox">
+                <div class="d-flex">
                     @Html.EditorFor(model => model.ConsultantSell)
                     @Html.ValidationMessageFor(model => model.ConsultantSell, "", new { @class = "text-danger" })
                 </div>
