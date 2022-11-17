@@ -46,10 +46,10 @@
 
         <dd>
             @Html.RadioButtonFor(model => model.Gender, "M")
-            @Html.ValidationMessageFor(model => model.Gender, "Male", new { @disabled = "disabled" })
+            @Html.LabelFor(model => model.Gender, "Male", new { @disabled = "disabled" })
             <br />
             @Html.RadioButtonFor(model => model.Gender, "F")
-            @Html.ValidationMessageFor(model => model.Gender, "Female", new { @disabled = "disabled" })
+            @Html.LabelFor(model => model.Gender, "Female", new { @disabled = "disabled" })
         </dd>
 
         <dt>
