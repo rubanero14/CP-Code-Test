@@ -24,21 +24,25 @@ ________________________________________________________________________________
 - Enter new `Server Name`
 - Choose `SQL Server Authentification` from dropdown
 - Enter new Login ID (Password is optional), click `Connect`
-- On `Object Explorer` panel, left click on `Databases` folder, Click `New Database`
-- Enter `Database Name`, and click `Okay`
+- On `Object Explorer` panel, left click on `Databases` folder, Click `New Database` ***[Refer: Figure 1]***
+- Enter `Database Name`, and click `Okay` ***[Refer: Figure 2]***
 - Again, in `Object Explorer` panel, expand recursively the Databases folder until you found the DB you just created
-- Left click on the your new DB, and click `New Query`
+- Left click on the your new DB, and click `New Query` ***[Refer: Figure 3]***
 - On the Query file just opened, paste the contents of the SQL file attached in this repo
 - Execute the query
-- Again on `Object Explorer` panel, open recursively the new DB folder again, under `Tables` folder, you will find the the 3 new tables added
+- Again on `Object Explorer` panel, open recursively the new DB folder again, under `Tables` folder, you will find the the 3 new tables added ***[Refer: Figure 4]***
 - Perform test queries to see if the DB is working
 - Keep database connection online
 
+### Figure 1
 ![image](https://user-images.githubusercontent.com/85555894/202455734-b46126c8-e0ba-45bf-86d2-b699d27427c1.png)
+### Figure 2
 ![image](https://user-images.githubusercontent.com/85555894/202456161-1103e1a5-3bd9-4d77-9c3a-b633b1838c2c.png)
+### Figure 3
 ![image](https://user-images.githubusercontent.com/85555894/202456506-c9325b7b-b6e1-4523-b142-c352e9449737.png)
-<br/>
+### Figure 4
 ![image](https://user-images.githubusercontent.com/85555894/202457396-4b696bff-36b2-49c5-bb16-9001f278f30f.png)
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 
