@@ -4,6 +4,8 @@
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
     padding: 0 20px;
 }
 
@@ -34,16 +36,15 @@ textarea {
     padding: 10px 20px;
 }
 
-.navbar-inversed {
-    background: #333;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-}
-
 .desktop .nav-link {
     text-decoration: none;
     color: #ccc;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ccc;
+}
+
+.navbar-inversed {
+    background: #333;
 }
