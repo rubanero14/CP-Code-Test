@@ -3,20 +3,20 @@
 ## This code test is part of the .Net Developer role to:
 - Assess ability to perform CRUD operations
 - Assess ability to build user interfaces
-- Understand the concept of MVC in .Net framework adn Entity Framework
+- Understand the concept of MVC in .Net framework and Entity Framework
 ________________________________________________________________________________________________________________________
 
 ## Choice of Tech Stack
 - ASP.NET Web Application (.NET Framework 4.7.2)
 - Entity Framework for DB interfacing, create scaffolding for Models, Controllers and Views
-- I should have done everything from grounds up, by writing own COntroller, Model, View and LINQ queries but due to limited timeframe and this is my first attempt to build .NET MVC Web APP, I chose EF
+- I should have done everything from grounds up, by writing own Controller, Model, View and LINQ queries but due to limited timeframe and this is my first attempt to build .NET MVC Web App, I chose EF
 
 ________________________________________________________________________________________________________________________
 
 ## Systems Required to run locally:
 - Microsoft SQL Server Management Studio 18 (SSMS Developer edition) 
 - MySQL Workbench 8.0
-- MIcrosoft Visual Studio 2019 and above
+- IDE: Visual Studio 2019 and above
 
 -------------------------------------------------------------------------------------------------------------------------
 ## Database Setup
@@ -27,10 +27,10 @@ ________________________________________________________________________________
 - On `Object Explorer` panel, left click on `Databases` folder, Click `New Database`
 - Enter `Database Name`, and click `Okay`
 - Again, in `Object Explorer` panel, expand recursively the Databases folder until you found the DB you just created
-- Left click on the your new DB, and choose `New Query`
+- Left click on the your new DB, and click `New Query`
 - On the Query file just opened, paste the contents of the SQL file attached in this repo
 - Execute the query
-- Open recursively the new DB folder again, under `Tables` folder, you will find the the 3 new tables added
+- Again on `Object Explorer` panel, open recursively the new DB folder again, under `Tables` folder, you will find the the 3 new tables added
 - Perform test queries to see if the DB is working
 - Keep database connection online
 
