@@ -1,6 +1,6 @@
 # CP Code Test .NET MVC using Entity Framework
 
-## This code test is part of the .Net Developer role to:
+## This code test is part of the .Net Developer role in Capital Platforms to:
 - Assess ability to perform CRUD operations
 - Assess ability to build user interfaces
 - Understand the concept of MVC in .Net framework and Entity Framework
@@ -24,10 +24,10 @@ ________________________________________________________________________________
 - Enter new `Server Name`
 - Choose `SQL Server Authentification` from dropdown
 - Enter new Login ID (Password is optional), click `Connect`
-- On `Object Explorer` panel, left click on `Databases` folder, Click `New Database` ***[Refer: Figure 1]***
+- On `Object Explorer` panel, right click on `Databases` folder, Click `New Database` ***[Refer: Figure 1]***
 - Enter `Database Name`, and click `Okay` ***[Refer: Figure 2]***
 - Again, in `Object Explorer` panel, expand recursively the Databases folder until you found the DB you just created
-- Left click on the your new DB, and click `New Query` ***[Refer: Figure 3]***
+- Select your new DB, right click on it and click `New Query` ***[Refer: Figure 3]***
 - On the Query file just opened, paste the contents of the SQL file attached in this repo
 - Execute the query
 - Again on `Object Explorer` panel, open recursively the new DB folder again, under `Tables` folder, you will find the the 3 new tables added ***[Refer: Figure 4]***
