@@ -9,7 +9,7 @@ ________________________________________________________________________________
 ## Choice of Tech Stack
 - ASP.NET Web Application (.NET Framework 4.7.2)
 - Entity Framework for DB interfacing, create scaffolding for Models, Controllers and Views
-- I should have build from grounds up, by writing own Controller, Model, View and LINQ queries but due to limited timeframe and this is my first attempt to build .NET MVC Web App, I chose EF methods
+- I should have build from grounds up, by writing own Controller, Model, View and LINQ queries but due to limited timeframe and this is my first attempt to build .NET MVC Web App, I chose EF method
 
 ________________________________________________________________________________________________________________________
 
